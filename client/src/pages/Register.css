@@ -1,0 +1,31 @@
+.register-page {
+    height: 100vh;
+    background-color: #164f55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.register-card {
+    background-color: #7fb9c2;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+  
+.register-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.register-card::-webkit-scrollbar {
+    display: none;
+}
